@@ -1,0 +1,6 @@
+warehouse:
+  host: localhost
+  port: 5432
+  user: retail
+  password: retail
+  database: retail

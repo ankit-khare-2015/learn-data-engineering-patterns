@@ -1,0 +1,7 @@
+provider_id,device_id,device_name,device_type,last_updated
+101,D-001,Beacon X,Sensor,2024-04-03T10:30:00Z
+101,D-002,Beacon XL,Sensor,2024-04-03T10:35:00Z
+205,D-010,Handheld Alpha,Handheld,2024-04-04T09:15:00Z
+104,D-001,Beacon X,Sensor,2024-04-03T10:30:00Z
+105,D-002,Beacon XL,Sensor,2024-04-03T10:35:00Z
+206,D-010,Handheld Alpha,Handheld,2024-04-04T09:15:00Z

@@ -1,0 +1,21 @@
+version: "3.9"
+services:
+  warehouse:
+    image: postgres:15
+    container_name: retail_warehouse
+    environment:
+      POSTGRES_USER: retail
+      POSTGRES_PASSWORD: retail
+      POSTGRES_DB: retail
+    ports:
+      - "5432:5432"
+    volumes:
+      - warehouse_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "retail"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  warehouse_data: {}

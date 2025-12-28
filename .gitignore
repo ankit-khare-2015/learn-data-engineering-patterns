@@ -1,0 +1,39 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.pytest_cache/
+.cache/
+.mypy_cache/
+.pytype/
+htmlcov/
+.coverage
+.coverage.*
+
+# Virtual environments
+.env
+.env.*
+venv/
+.venv/
+ENV/
+env/
+
+# Build and packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Editors and OS cruft
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak

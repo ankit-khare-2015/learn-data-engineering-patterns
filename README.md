@@ -8,4 +8,4 @@ This repo collects simple, repeatable patterns for data engineering. Each patter
   - Silver and publish hold only the latest batch for stable consumer reads
   - Includes Docker setup, SQL steps, Python runner, and runbook
 
-More patterns can be added under `patterns/` following the same structure.
+More patterns will be added under `patterns/` following the same structure.

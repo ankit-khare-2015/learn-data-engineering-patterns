@@ -1,4 +1,4 @@
-# Retail Data Engineering Patterns
+# Data Engineering Patterns
 
 This repo collects simple, repeatable patterns for data engineering. Each pattern has its own folder with architecture notes, runnable assets, SQL, and code.
 
